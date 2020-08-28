@@ -1,26 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Question from "./components/Question";
+import AnswerBox from "./components/AnswerBox";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div
+      style={{
+        backgroundColor: "#feebb3",
+        // backgroundImage:
+        //   "url(https://www.transparenttextures.com/patterns/gplay.png)",
+      }}
+    >
+      <Question />
+      <AnswerBox />
     </div>
   );
 }
+// background: url(/src/assets/img/sayagata.png) repeat, rgb(254, 235, 179);
 
 export default App;
