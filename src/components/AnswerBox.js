@@ -79,6 +79,7 @@ const AnswerBox = () => {
             padding: "1rem 1.5rem",
             borderRadius: "10px",
             backgroundColor: "rgb(113,204,209)",
+            outline: "none",
           }}
         >
           View Another Answer
