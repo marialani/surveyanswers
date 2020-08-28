@@ -80,6 +80,7 @@ const AnswerBox = () => {
             borderRadius: "10px",
             backgroundColor: "rgb(113,204,209)",
             outline: "none",
+            fontFamily: "Avenir",
           }}
         >
           View Another Answer
